@@ -1,3 +1,35 @@
+* {
+    font-family: Roboto, sans-serif;
+}
 .pink {
     background-color: bisque;
+}
+
+.forms{
+    margin: 3% auto auto;
+    width: 25%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    padding: 24px;
+
+}
+.commit{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.commit button {
+    margin: 0 5%;
+    width:120px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-bottom: 10px;
 }
