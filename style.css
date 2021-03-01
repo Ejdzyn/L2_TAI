@@ -1,7 +1,7 @@
 * {
     font-family: Roboto, sans-serif;
 }
-.pink {
+.cookie {
     background-color: bisque;
 }
 
@@ -33,3 +33,9 @@
 input {
     margin-bottom: 10px;
 }
+
+.img {
+    width: 100px;
+    height: auto;
+}
+
