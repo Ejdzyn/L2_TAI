@@ -148,6 +148,7 @@ footer a:hover{
 
 .list-group-item {
     cursor: pointer;
+    color: black;
 }
 
 .correct {
@@ -173,5 +174,12 @@ footer a:hover{
     border: 1px solid gray;
 }
 
+.quiz-container {
+    padding-top: 24px;
+}
+
+.restart{
+    padding:12px;
+}
 
 

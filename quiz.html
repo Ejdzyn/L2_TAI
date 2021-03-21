@@ -14,11 +14,12 @@
 
     </header>
 
-    <div class="container">
+    <div class="container quiz-container">
 
-        <div style="margin-top: 12px" class="container list">
-            Question: <h4 class="question"> 1</h4>
-            <br>
+        <div class="container list">
+            Question: <span id="index"></span><br>
+            <h4 class="question"></h4><br>
+
             Answers:
             <ul class="list-group">
                 <li class="list-group-item"></li>
@@ -32,10 +33,11 @@
                 <button class="btn btn-success next">Next</button>
             </div>
 
-            <h4>Your score: <span class="score">0</span>/20 points.</h4>
+            <h4>Your score: <span class="score"> 0 </span>/20 points.</h4>
         </div>
+
         <div class="container results" style="display: none">
-            <div class="btn-group-custom">
+            <div class="btn-group-custom" style="padding: 4px 8px;">
                 <button class="btn btn-success btn-custom restart">Retake quiz</button>
             </div>
             <div class="score">
@@ -50,7 +52,7 @@
                     <tbody>
                     <tr>
                         <th scope="row">Your score</th>
-                        <td class="userScorePoint"></td>
+                        <td class="userPoints"></td>
                         <td class="average"></td>
                     </tr>
                     </tbody>
